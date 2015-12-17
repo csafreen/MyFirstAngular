@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background: no-repeat;
+    border-image-width: 100%;
+    background-size: 100%;
+}
+
+header   {
+    color: white ;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.title div img
+{
+    margin-left: 10px;
+    border-bottom-color: #F65A5B;
+    height: 200px;
+    width: 200px;
+}
+
+.title div h4
+{
+    margin-left: 10px;
+    align-content:center;
+    font-family: 'Roboto', sans-serif;
+}
+
+ li
+{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+ nav
+ {
+     line-height: 30px;
+     height: 400px;
+     width: 75px;
+     float: left;
+     padding: 5px;
+     margin: 5px;
+ }
+.title div h3
+{
+    text-decoration: underline;
+}
+.title div h3:hover
+{
+    color:red;
+    cursor:pointer;
+}
+
+section
+ {
+     background-color: lightblue;
+     border-radius: 10px;
+     width: 350px;
+     float: left;
+     padding: 5px;
+     height: 400px;
+     margin: 5px;
+    font-family: 'Roboto', sans-serif;
+ }
+#btnEdit
+{
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btnEdit:hover
+{
+    background-color: dodgerblue;
+    color: white;
+}
+input
+{
+    height: 20px;
+    width: 200px;
+}
+tr:nth-last-child(1):hover
+{
+    background-color: lightblue;
+}
+tr:hover
+{
+    background-color: cornflowerblue;
+}
+section:hover{
+    border: 1px solid cornflowerblue;
+}
