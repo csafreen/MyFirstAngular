@@ -1,5 +1,4 @@
 /**
- * Created by afreen.sikandar on 30.11.2015.
+ * Created by AFREEN on 29-11-2015.
  */
-var app;
-app = angular.module("MyFirstApp", []);
+var app=angular.module("myApp",[]);

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Details</title>
+    <script src="angular.min.js"></script>
+    <script src="angular.js"></script>
+    <link rel="stylesheet" type="text/css" href="css\main.css">
+</head>
+<body ng-controller="MainController" style="background-image: url('img/Desert.jpg')">
+<section>
+<table>
+    <tr>
+        <td><h4>Unique Id:</h4></td>
+        <td><input type="text" ng-model="CurrentUser.id"  ng-disabled="Edit"> </td>
+    </tr>
+    <tr>
+        <td><h4>User Name:</h4></td>
+        <td><input type="text" ng-model="CurrentUser.name" ng-disabled="Edit"> </td>
+    </tr>
+    <tr>
+        <td><h4>Current Location:</h4></td>
+        <td><input type="text" ng-model="CurrentUser.place" ng-disabled="Edit"> </td>
+    </tr>
+    <tr>
+        <td><h4>From Date:</h4></td>
+        <td><input type="date" ng-model="CurrentUser.fromDate" ng-disabled="Edit"> </td>
+    </tr>
+    <tr>
+        <td><h4>To Date:</h4></td>
+        <td><input type="date" ng-model="CurrentUser.toDate" ng-disabled="Edit"> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2" rowspan="3">
+            <input type="button" value="Edit" id="btnEdit" ng-click="editUserDetails(CurrentUser.id)">
+        </td>
+    </tr>
+</table>
+</section>
+</body>
+</html>
